@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>links</title>
+    <style>
+
+        /*
+        seletores personalizados
+        
+        simbolos e suas funções no css
+
+        # = id
+        . = class
+        : = pseud-class
+        :: pseudo-element
+        > = clildren, o filho dentro do id
+
+        mais usados no css ate ex20
+        */
+        body{
+           background-color: aquamarine;
+
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        a{
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited{
+            color: rgba(22, 1, 1, 0.479);
+        }
+
+        a:hover{
+            color: black;
+            text-decoration: underline;
+        }
+
+       
+        a:active {
+            color: yellow; /* a:active serve pra mudar cor na hora de clicar em cima do link no site*/
+        }
+
+        .especial{
+            background-color: rgba(104, 155, 214, 0.671);
+        }
+
+        .especial::before{
+            content: '⟾';
+
+
+        }
+
+       .especial::after{
+        content: '⟽';
+       }
+
+        
+
+
+    </style>
+</head>
+<body>
+    <h1>Personalizando links</h1>
+    <ul>
+        <li><a href="https://www.instagram.com/p/Cci5ujtteDb/?img_index=1" target="_blank">Instagram</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dfDrhpZ9mqc&list=PLfKanlOKxh5odHGflYhZkGCI5_un-P9c2" target="_blank" class="especial">Youtube</a></li>
+        <li><a href="https://www.youtube.com/watch?v=dfDrhpZ9mqc&list=PLfKanlOKxh5odHGflYhZkGCI5_un-P9c2" target="_blank">Facebook</a></li>
+    </ul>
+</body>
+</html>

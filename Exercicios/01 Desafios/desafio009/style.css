@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1{
+    
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
+}
+        body{
+            background-color: aquamarine;
+        }
+        picture{
+            text-align: center;
+        }
+   p{
+   
+    text-align: center;
+    font-style: italic;
+    
+
+   }
