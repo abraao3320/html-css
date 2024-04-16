@@ -6,12 +6,25 @@
     <title>TEste de fundo</title>
     <style>
         body{
-            background-color: black;
+            /* background-color: black;
             background-image: url("imagens/wallpaper002.jpg");
             background-position: center center;
             background-repeat:  repeat-y;
-            background-size: cover;
+            background-size: cover; 
+            background-attachment: fixed;
+            */
+            
+            
             height: 98vh;
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            
+            background-size: cover;
+            /* shorthand - background 
+                background: color > image > position repeat > [size] > attachment ;
+
+                ate momento size está na sequencia mas não esta funcionando.
+            */
 
         }
 
@@ -19,9 +32,10 @@
             background-color: white;
             margin: auto;
             padding: 10px;
-            width: 400px;
+            max-width: 400px;
             border:  1px solid black;
             border-radius: 15px;
+            
             
             
         }
