@@ -12,7 +12,7 @@
         }
 
         table{
-            
+            position: relative;
             width: 400px;
             height: 200px;
         }
@@ -20,6 +20,14 @@
         td{
             border: 2px solid black;
             text-align: center;
+        }
+
+         tr :nth-child(even){
+            background-color: aqua;
+        }
+
+        tr > :nth-child(odd){
+            background-color: bisque;
         }
     </style>
 </head>
