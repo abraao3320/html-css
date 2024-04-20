@@ -9,26 +9,26 @@
     <h1> Exemplo de Formulário</h1>
     <form action="cadastro.php" method="get">
 
-        <p>
-            <label for="iest">Estado</label>
-            <select name="estado" id="iest" >
-
-                <option value="" selected>--- Escolha---</option>
-                <optgroup label="Região Sudeste">
-                    <option value="SP">São Paulo</option>
-                    <option value="MG">Minas Gerais</option>
-                    <option value="RJ">Rio de Janeiro</option>
-                </optgroup>
-
-
-                <optgroup label="Região Nordeste">
-                    <option value="AL">Algoas</option>
-                    <option value="PE">Pernambuco</option>
-                    <option value="MA">Maranhão</option>
-                    
-                </optgroup>
-            </select>
-        </p>
+        <fieldset>
+            <legend>Estados</legend>
+            <p>
+                <label for="iest">Estado</label>
+                <select name="estado" id="iest" >
+                    <option value="" selected>--- Escolha---</option>
+                    <optgroup label="Região Sudeste">
+                        <option value="SP">São Paulo</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </optgroup>
+                    <optgroup label="Região Nordeste">
+                        <option value="AL">Alagoas</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="MA">Maranhão</option>
+            
+                    </optgroup>
+                </select>
+            </p>
+        </fieldset>
 
         <p>
             <label for="iprof">Profissão</label>
@@ -37,6 +37,7 @@
                 <option value="CON">Contador</option>
                 <option value="ADM">Administrador</option>
                 <option >Jogador</option>
+
                 <!-- Value no opition data list é opcional-->
 
             </datalist>
