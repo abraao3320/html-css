@@ -11,7 +11,7 @@ body, html{
 }
 
 header{
-    background-color: gray;
+    background-color: rgb(114, 110, 110);
 }
 header > h1 {
     padding: 10px;
@@ -25,11 +25,13 @@ menu{
 
 menu > ul > li > a{
     display: block;
-    text-decoration: none;
-    color: white; 
     padding: 10px;
+    text-decoration: none;
     text-align: center;
+    background-color: rgb(88, 88, 88);
+    color: white; 
     border-top: 2px solid gray;
+   
 
 }
 
@@ -40,6 +42,7 @@ menu > ul > li a:hover{
  menu > ul{
     list-style-type: none;
     background-color: rgb(102, 101, 101);
+    
     
 
  }
@@ -52,6 +55,7 @@ menu > ul > li a:hover{
     color: white;
     padding: 10px;
     cursor: pointer;
+    
  }
 
  #burguer:hover{
